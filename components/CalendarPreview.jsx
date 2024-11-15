@@ -61,13 +61,7 @@ const CalendarPreview = () => {
           </div>
         )}
 
-        {/* Yearly: Future Extension */}
-        {recurrenceType === "yearly" && (
-          <div className="flex justify-between gap-2 text-gray-700">
-            <span className="font-medium">Yearly Recurrence:</span>
-            <span>Custom yearly options can be added here.</span>
-          </div>
-        )}
+      
       </div>
     </div>
   );
